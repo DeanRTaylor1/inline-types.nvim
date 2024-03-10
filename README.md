@@ -1,4 +1,4 @@
-# Inline Types Plugin for Neovim - Beta
+# Inline Types Plugin for Neovim - Alpha
 
 The Inline Types plugin enhances your Go development experience in Neovim by displaying function signatures and return types directly in your code, as virtual text. This plugin uses the power of Treesitter and Neovim's built-in LSP to provide you with inline annotations of function return types, so you don't have to jump back and forth between definitions.
 
