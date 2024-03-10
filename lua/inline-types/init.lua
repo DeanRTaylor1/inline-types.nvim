@@ -157,7 +157,7 @@ function M.setup()
 
 	M.augroup = vim.api.nvim_create_augroup("GoInlineTypes", { clear = true })
 
-	vim.api.nvim_create_autocmd({ "TextChanged", "TextChangedI", "BufRead" }, {
+	vim.api.nvim_create_autocmd({ "TextChanged", "TextChangedI" }, {
 		group = M.augroup,
 		pattern = { "*.go" },
 		callback = function()
