@@ -151,7 +151,7 @@ M.getData = function(params, callback)
 end
 
 function M.setup()
-	vim.api.nvim_create_user_command("AutoRun", function()
+	vim.api.nvim_create_user_command("ShowReturnTypes", function()
 		M.getRetTypes()
 	end, {})
 
